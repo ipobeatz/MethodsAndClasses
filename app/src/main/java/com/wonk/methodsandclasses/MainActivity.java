@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onPause() {
+        System.out.println("worked onPause");
         super.onPause();
     }
 }
